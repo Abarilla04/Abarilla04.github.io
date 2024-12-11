@@ -3859,12 +3859,11 @@ input, select, textarea {
 			margin: 0 auto; /* Optional: Center the image */
 			display: block; /* Optional: Ensures it behaves like a block element */
 		}
-		img[src*="adaptiveshelvingsystem"] {
-    			width: 100%;
-    			max-width: 2000px; /* Custom size for this specific image */
-    			height: 1000px;
-    			margin: 0 auto;
-    			display: block;
+		.image.fit img[src*="adaptiveshelvingsystem"] {
+			width: 400px; /* Desired width */
+			height: 1000px; /* Maintain aspect ratio */
+			margin: 0 auto; /* Optional: Center the image */
+			display: block; /* Optional: Ensures it behaves like a block element */
 		}
 
 		
