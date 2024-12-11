@@ -3861,8 +3861,8 @@ input, select, textarea {
 		}
 		img[src*="adaptiveshelvingsystem"] {
     			width: 100%;
-    			max-width: 1000px; /* Custom size for this specific image */
-    			height: auto;
+    			max-width: 2000px; /* Custom size for this specific image */
+    			height: 1000px;
     			margin: 0 auto;
     			display: block;
 		}
