@@ -3859,6 +3859,14 @@ input, select, textarea {
 			margin: 0 auto; /* Optional: Center the image */
 			display: block; /* Optional: Ensures it behaves like a block element */
 		}
+		img[src*="adaptiveshelvingsystem"] {
+    			width: 100%;
+    			max-width: 1000px; /* Custom size for this specific image */
+    			height: auto;
+    			margin: 0 auto;
+    			display: block;
+		}
+
 		
 		.social li a.fa-linkedin-in {
 			background-color: #0077b5; /* LinkedIn blue */
