@@ -3861,7 +3861,7 @@ input, select, textarea {
 		}
 		.image.fit img[src*="adaptiveshelvingsystem"] {
 			width: 400px; /* Desired width */
-			height: 1000px; /* Maintain aspect ratio */
+			height: auto; /* Maintain aspect ratio */
 			margin: 0 auto; /* Optional: Center the image */
 			display: block; /* Optional: Ensures it behaves like a block element */
 		}
